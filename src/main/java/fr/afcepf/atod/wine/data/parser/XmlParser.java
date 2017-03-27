@@ -150,7 +150,6 @@ public class XmlParser {
     			FileUtils.copyURLToFile(url, file);
         	}        	            
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}*/
         
@@ -173,7 +172,6 @@ public class XmlParser {
 							daoRegion.insertObj(new Region(null,"Idf",
 									daoCountry.insertObj(new Country(null,"France"))))))));
 		} catch (WineException e2) {
-			// TODO Auto-generated catch block
 			e2.printStackTrace();
 		}
         
@@ -191,7 +189,6 @@ public class XmlParser {
 			daoCustomer.insertObj(customer1);
 			daoCustomer.insertObj(customer2);
 		} catch (WineException e1) {
-			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
         Product productRand = new Product(null, "pre", 500.0, "un produit");
